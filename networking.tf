@@ -26,12 +26,12 @@ data "aws_route53_zone" "dns_public_zone" {
 variable "subnets" {
   type = "map"
   default = {
-    "AAAAA002useast2-public-us-east-1a-sn"  = "EEEEE"
-    "AAAAA002useast2-public-us-east-1b-sn"  = "FFFFF"
-    "AAAAA002useast2-public-us-east-1c-sn"  = "GGGGG"
-    "AAAAA002useast2-private-us-east-1a-sn" = "HHHHH"
-    "AAAAA002useast2-private-us-east-1b-sn" = "IIIII"
-    "AAAAA002useast2-private-us-east-1c-sn" = "JJJJJ"
+    "AAAAA002useast2-public-us-east-2a-sn"  = "EEEEE"
+    "AAAAA002useast2-public-us-east-2b-sn"  = "FFFFF"
+    "AAAAA002useast2-public-us-east-2c-sn"  = "GGGGG"
+    "AAAAA002useast2-private-us-east-2a-sn" = "HHHHH"
+    "AAAAA002useast2-private-us-east-2b-sn" = "IIIII"
+    "AAAAA002useast2-private-us-east-2c-sn" = "JJJJJ"
   }
 }
 
